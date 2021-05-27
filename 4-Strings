@@ -1,0 +1,11 @@
+nome1 = "elliezer"
+nome2 = "vieira"
+nome_completo = nome1 + " " + nome2
+nome_completo2 = nome_completo.title()
+
+nome_completo2 = input("Digite seu nome: ")
+
+
+nome_completo2 = nome_completo2.title()
+
+print(nome_completo + " " + nome_completo2 + "\isso aqui não é um time\nessa é uma família")
