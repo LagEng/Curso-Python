@@ -1,0 +1,21 @@
+#FORMAS DE IMPORTAR UM MODULO
+
+import modulo #IMPORTA O MODULO INTEIRO
+
+modulo.soma(1,2)
+
+
+from modulo import sub #IMPORTA SOMENTE UMA FUNCAO DO MODULO
+
+sub(5,3)
+
+from modulo import * #IMPORTA SOMENTE AS FUNCOES QUE EU VOU CHAMAR DAQUI PARA FRENTE
+
+mult(5,4)
+div(10,2)
+
+#NOS CASOS ACIMA, JA EXISTIA O PRINT DENTRO DA FUNCAO
+
+
+nome_completo("ELLIEZER","AMORIM","VIEIRA")
+
