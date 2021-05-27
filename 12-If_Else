@@ -1,0 +1,14 @@
+carros = ("audi","bmw","ferrari","honda")
+
+## errado    for carro in carros:
+## errado        if carro == "bmw":
+## errado            carros[carro] = carros[carro.upper()]
+## errado            carros[carro] = carros[carro.upper()]
+## errado            carros[carro] = carros[carro.upper()]
+##carros[carro] = carros[carro.title()]
+
+for carro in carros:
+    if carro == "bmw":
+        print(carro.upper())
+    else:
+        print(carro.title())
