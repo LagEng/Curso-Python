@@ -1,0 +1,18 @@
+ingredientes = ["mostarda","pimentão","queijo extra"]
+ingred_pedido = ["mostarda","pimentão","queijo extra","tomate"]
+
+a = 0
+for ingrediente in ingred_pedido:
+
+    if ingrediente in ingredientes:
+        print("Adicionando " + ingrediente + " a sua pizza.")
+    else:
+        print("Sinto muito, não temos: " + ingrediente)
+        a = 1
+
+
+if a == 0:
+    print("\nSua pizza está pronta.")
+
+if a == 1:
+    print("\nDesculpe não foi possivel fazer a pizza toda")
