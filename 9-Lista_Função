@@ -1,0 +1,11 @@
+lista_cor = ["vermelho","verde","preto","branco","azul"]
+print(lista_cor)
+
+
+def lista_funcao(lista):
+    for cor in lista:
+        print(cor)
+        lista.pop()  # o .pop exclui o ultimo elemento da lista
+
+lista_funcao(lista_cor[:])
+print(lista_cor)
