@@ -1,0 +1,12 @@
+alimentos = ['Tomate','Batata','Uva','Banana','Ovos','Pão','Pizza']
+
+alimentos2 = alimentos[:]
+
+alimentos.append('Hamburguer')
+
+alimentos2.sort()
+
+
+print(alimentos)
+print(alimentos2)
+
