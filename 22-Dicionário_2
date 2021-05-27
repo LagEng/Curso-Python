@@ -1,0 +1,15 @@
+alien_0 = {'cor' : 'verde', 'pontuaçao': 5 , 'posiçao_x' : 0, 'posiçao_y' : 25 , 'poder': 'fogo' }
+
+
+print(alien_0)
+
+del alien_0 ['poder']
+
+print(alien_0)
+
+print('')
+
+for atr, val in alien_0.items():
+    print(atr)
+    print(val)
+    print('')
