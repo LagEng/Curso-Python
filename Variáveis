@@ -1,0 +1,7 @@
+num = 10
+
+texto = True
+num2 = 10.5
+
+print(type(texto))
+
