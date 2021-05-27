@@ -1,0 +1,11 @@
+carros = ['ferrari','mustang','BMW','corvet','civic','corola']
+
+
+
+for carro in carros:
+
+    print("Eu quero um carro do modelo: " + carro)
+    print("Eu quero um carro do modelo: " + carro)
+    print("Eu quero um carro do modelo: " + carro)
+
+print("obrigado")
