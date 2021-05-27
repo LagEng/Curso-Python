@@ -1,0 +1,18 @@
+
+num = 1
+cor = "amarelo"
+
+
+
+if num == 1:
+    if cor == "azul":
+        print(cor)
+
+    elif cor == "amarelo":
+        print(cor)
+
+    else:
+        print("Cor não é azul, nem amarelo")
+
+else:
+    print("Não executável, o num é diferente de 1")
