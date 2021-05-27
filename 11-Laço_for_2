@@ -1,0 +1,15 @@
+#numeros = list(range(1,101))
+
+#for n in numeros:
+    #print(n)
+
+
+#for n in range(1,101,10):
+    #print(n)
+
+numeros = []
+
+for n in range(1,101):
+    numeros.append(n)
+
+print(numeros)
