@@ -1,0 +1,34 @@
+#PEDIDO DO USUÁRIO
+
+ingred_pedido = []
+
+continuar = "s"
+
+while continuar.lower() == "s":
+
+    ing = input("Digite um ingrediente de sua preferência: ")
+    ingred_pedido.append(ing.lower())
+    continuar = input("Deseja adicionar mais misturas a pizza? Pressione S para (Sim) ou N para (Não)")
+
+
+
+#PIZZARIA
+
+ingredientes = ["mostarda","pimentão","queijo extra"]
+
+
+a = 0
+for ingrediente in ingred_pedido:
+
+    if ingrediente in ingredientes:
+        print("Adicionando " + ingrediente + " a sua pizza.")
+    else:
+        print("Sinto muito, não temos: " + ingrediente)
+        a = 1
+
+
+if a == 0:
+    print("\nSua pizza está pronta.")
+
+if a == 1:
+    print("\nDesculpe não foi possivel fazer a pizza toda")
