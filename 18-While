@@ -1,0 +1,6 @@
+escreva = ''
+
+while escreva != 'sair':
+    print('Caso queira encerrar o programa digite "sair"\n')
+    escreva = input("escreva algo:")
+    print(escreva)
