@@ -1,0 +1,12 @@
+def animais(especie="cachorro", nome=""):
+    especie = especie
+    nome = nome
+    print("Eu tenho um " + especie + " chamado " + nome)
+
+animais("cachorro","Totó")
+animais("gato","Teco")
+
+animais(nome="Totó",especie="cachorro")
+
+animais(nome = "Tico")
+animais("gato","Tom")
