@@ -1,0 +1,4 @@
+alimentos = ['Tomate','Batata','Uva','Banana','Ovos','Pão','Pizza']
+
+for a in alimentos[:5]:
+    print(a)
