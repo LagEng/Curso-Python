@@ -1,0 +1,7 @@
+uno = ["uno_com_escada"]
+
+print(uno)
+
+uno.extend("uno_com_escada")
+
+print(uno[0] + uno[2],uno[3],uno[4],uno[5],uno[6],uno[7],uno[8],uno[9],uno[10],uno[12],uno[13],uno[14])
