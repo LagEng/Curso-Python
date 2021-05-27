@@ -1,0 +1,3 @@
+alimentos = ('hot-dog','hambguer','batata frita')
+
+print(alimentos[2])
