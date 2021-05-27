@@ -1,0 +1,16 @@
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
+
+if idade <= 15: print(nome + " não pode votar, pois não possui a idade mínima de 16 anos")
+if 18 > idade >=16: print("Para "+ nome +" o voto opcional")
+if idade >= 65: print("Para "+ nome +" o voto opcional")
+if idade < 65 and idade >17: print("Para "+ nome + " o voto é obrigatório")
+
+#if idade <16:
+#print(nome + ",você tem " + str(idade) + "anos e você não pode votar")
+#elif (idade >= 16 and <=17) or (idade > 64):
+#print(nome + ",você tem " + str(idade) + "anos e seu voto não é opcional")
+#elif idade >64
+######print(nome + ",você tem " + str(idade) + "anos e seu voto não é opcional")
+#else:
+#print(nome + ",você tem " + str(idade) + "anos e seu voto é obrigatório")
